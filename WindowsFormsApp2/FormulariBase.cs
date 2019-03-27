@@ -40,6 +40,7 @@ namespace WindowsFormsApp2
         private void FormulariBase_FormClosing(object sender, FormClosingEventArgs e)
         {
             MessageBox.Show("La operació "+this.operationLabel.Text+" s'ha executat "+this.operationCounter+" vegades.");
+            timer.Stop();
         }
 
         // operations utilities
