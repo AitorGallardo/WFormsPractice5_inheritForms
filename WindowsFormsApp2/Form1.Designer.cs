@@ -32,8 +32,8 @@
             this.formularisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.suma = new System.Windows.Forms.ToolStripMenuItem();
             this.resta = new System.Windows.Forms.ToolStripMenuItem();
-            this.multiplicacio = new System.Windows.Forms.ToolStripMenuItem();
             this.divisio = new System.Windows.Forms.ToolStripMenuItem();
+            this.factorial = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,8 +53,8 @@
             this.formularisToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.suma,
             this.resta,
-            this.multiplicacio,
-            this.divisio});
+            this.divisio,
+            this.factorial});
             this.formularisToolStripMenuItem.Name = "formularisToolStripMenuItem";
             this.formularisToolStripMenuItem.Size = new System.Drawing.Size(107, 29);
             this.formularisToolStripMenuItem.Text = "Formularis";
@@ -72,17 +72,17 @@
             this.resta.Size = new System.Drawing.Size(252, 30);
             this.resta.Text = "Resta";
             // 
-            // multiplicacio
-            // 
-            this.multiplicacio.Name = "multiplicacio";
-            this.multiplicacio.Size = new System.Drawing.Size(252, 30);
-            this.multiplicacio.Text = "Multiplicació";
-            // 
             // divisio
             // 
             this.divisio.Name = "divisio";
             this.divisio.Size = new System.Drawing.Size(252, 30);
             this.divisio.Text = "Divisió";
+            // 
+            // factorial
+            // 
+            this.factorial.Name = "factorial";
+            this.factorial.Size = new System.Drawing.Size(252, 30);
+            this.factorial.Text = "Factorial";
             // 
             // Form1
             // 
@@ -104,8 +104,8 @@
         private System.Windows.Forms.ToolStripMenuItem formularisToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem suma;
         private System.Windows.Forms.ToolStripMenuItem resta;
-        private System.Windows.Forms.ToolStripMenuItem multiplicacio;
         private System.Windows.Forms.ToolStripMenuItem divisio;
+        private System.Windows.Forms.ToolStripMenuItem factorial;
     }
 }
 

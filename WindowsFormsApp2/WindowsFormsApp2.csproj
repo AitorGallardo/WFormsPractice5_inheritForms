@@ -46,9 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +57,24 @@
     </Compile>
     <Compile Include="FormulariBase.Designer.cs">
       <DependentUpon>FormulariBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariDivisio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariDivisio.Designer.cs">
+      <DependentUpon>FormulariDivisio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariFactorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariFactorial.Designer.cs">
+      <DependentUpon>FormulariFactorial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormulariResta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulariResta.Designer.cs">
+      <DependentUpon>FormulariResta.cs</DependentUpon>
     </Compile>
     <Compile Include="FormulariSuma.cs">
       <SubType>Form</SubType>
@@ -74,6 +89,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormulariBase.resx">
       <DependentUpon>FormulariBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariDivisio.resx">
+      <DependentUpon>FormulariDivisio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariFactorial.resx">
+      <DependentUpon>FormulariFactorial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulariResta.resx">
+      <DependentUpon>FormulariResta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormulariSuma.resx">
       <DependentUpon>FormulariSuma.cs</DependentUpon>

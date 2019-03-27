@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp2
 {
-    partial class FormulariSuma
+    partial class FormulariDivisio
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -39,52 +39,52 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(279, 283);
+            this.label4.Location = new System.Drawing.Point(269, 277);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(69, 20);
-            this.label4.TabIndex = 30;
+            this.label4.TabIndex = 24;
             this.label4.Text = "Resultat";
             // 
             // txtBxResult
             // 
-            this.txtBxResult.Location = new System.Drawing.Point(361, 280);
+            this.txtBxResult.Location = new System.Drawing.Point(351, 274);
             this.txtBxResult.Name = "txtBxResult";
             this.txtBxResult.Size = new System.Drawing.Size(100, 26);
-            this.txtBxResult.TabIndex = 29;
+            this.txtBxResult.TabIndex = 23;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(279, 194);
+            this.label3.Location = new System.Drawing.Point(269, 188);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(59, 20);
-            this.label3.TabIndex = 28;
+            this.label3.TabIndex = 22;
             this.label3.Text = "Valor 2";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(279, 108);
+            this.label2.Location = new System.Drawing.Point(269, 102);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(59, 20);
-            this.label2.TabIndex = 27;
+            this.label2.TabIndex = 21;
             this.label2.Text = "Valor 1";
             // 
             // txtBxValue2
             // 
-            this.txtBxValue2.Location = new System.Drawing.Point(361, 191);
+            this.txtBxValue2.Location = new System.Drawing.Point(351, 185);
             this.txtBxValue2.Name = "txtBxValue2";
             this.txtBxValue2.Size = new System.Drawing.Size(100, 26);
-            this.txtBxValue2.TabIndex = 26;
+            this.txtBxValue2.TabIndex = 19;
             // 
             // txtBxValue1
             // 
-            this.txtBxValue1.Location = new System.Drawing.Point(361, 105);
+            this.txtBxValue1.Location = new System.Drawing.Point(351, 99);
             this.txtBxValue1.Name = "txtBxValue1";
             this.txtBxValue1.Size = new System.Drawing.Size(100, 26);
-            this.txtBxValue1.TabIndex = 25;
+            this.txtBxValue1.TabIndex = 18;
             // 
-            // FormulariSuma
+            // FormulariDivisio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.ClientSize = new System.Drawing.Size(800, 450);
@@ -94,7 +94,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtBxValue2);
             this.Controls.Add(this.txtBxValue1);
-            this.Name = "FormulariSuma";
+            this.Name = "FormulariDivisio";
             this.Controls.SetChildIndex(this.operationLabel, 0);
             this.Controls.SetChildIndex(this.timeLabel, 0);
             this.Controls.SetChildIndex(this.txtBxValue1, 0);

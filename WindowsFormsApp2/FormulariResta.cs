@@ -8,11 +8,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp2
 {
-    public partial class FormulariSuma : WindowsFormsApp2.FormulariBase
+    public partial class FormulariResta : WindowsFormsApp2.FormulariBase
     {
-        public FormulariSuma()
+        public FormulariResta()
         {
-            this.operationLabel.Text = "Suma";
+            this.operationLabel.Text = "Resta";
             InitializeComponent();
         }
 
@@ -23,7 +23,7 @@ namespace WindowsFormsApp2
 
             if (checkIfItsDouble(value1) && checkIfItsDouble(value2))
             {
-                this.txtBxResult.Text = (Convert.ToDouble(parseDot(value1)) + Convert.ToDouble(parseDot(value2))).ToString();
+                this.txtBxResult.Text = (Convert.ToDouble(parseDot(value1)) - Convert.ToDouble(parseDot(value2))).ToString();
                 return true;
             }
             else

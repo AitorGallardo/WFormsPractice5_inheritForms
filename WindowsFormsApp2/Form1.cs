@@ -22,16 +22,24 @@ namespace WindowsFormsApp2
             switch (e.ClickedItem.Name)
             {
                 case "suma":
-                    {
-                        FormulariSuma fSuma = new FormulariSuma();
-                        fSuma.ShowDialog();
-                    }
+                    FormulariSuma formSuma = new FormulariSuma();
+                    formSuma.Text = "Formulari Suma";
+                    formSuma.ShowDialog();
                     break;
                 case "resta":
-                    break;
-                case "multiplicacio":
+                    FormulariResta formResta = new FormulariResta();
+                    formResta.Text = "Formulari Resta";
+                    formResta.ShowDialog();
                     break;
                 case "divisio":
+                    FormulariDivisio formDivisio = new FormulariDivisio();
+                    formDivisio.Text = "Formulari Divisio";
+                    formDivisio.ShowDialog();
+                    break;
+                case "factorial":
+                    FormulariFactorial formFactorial = new FormulariFactorial();
+                    formFactorial.Text = "Formulari Factorial";
+                    formFactorial.ShowDialog();
                     break;
             }
         }
